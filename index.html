@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Produtos — Moda Elegante</title>
+    <meta name="description" content="Produtos da Moda Elegante — catálogo completo." />
+    
+    <!-- Performance: Preload crítico -->
+    <link rel="preload" href="images/logo.jpg" as="image" type="image/jpeg">
+    <link rel="preload" href="https://cdn.tailwindcss.com" as="script">
+    <link rel="preload" href="js/script.js" as="script">
+    
+    <!-- Performance: DNS Prefetch e conexões -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Fonts com font-display: swap para melhor performance -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind e styles -->
+    <script>
+      tailwind.config = { theme: { extend: { colors: { primary: '#3B82F6' }, fontFamily: { sans: ['Inter','ui-sans-serif','system-ui'] } } } }
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles/custom.css">
+    
+    <!-- Scripts com defer para não bloquear renderização -->
+    <script defer src="js/imageOptimizer.js"></script>
+    <script defer src="js/script.js"></script>
+  </head>
+  <body class="antialiased text-slate-800 bg-gray-50 font-sans">
+    <header class="sticky top-0 bg-white/90 backdrop-blur-sm border-b border-gray-200">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-center h-16">
+          <div class="flex items-center gap-3">
+            <img src="images/logo.jpg" alt="Logo Moda Elegante" class="w-12 h-12 rounded-md object-contain bg-white" loading="eager" />
+            <div class="text-center sm:text-left">
+              <span class="font-semibold block">Moda Elegante</span>
+              <div class="text-xs text-slate-500">Estilo que Conquista</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <!-- Mobile header (visible only on small screens) -->
+        <div class="md:hidden mb-6">
+          <div class="mb-4">
+            <div class="text-2xl font-extrabold mb-1">Produtos</div>
+            <p class="text-sm text-slate-500">Filtre por categoria</p>
+          </div>
+          <div id="filtersMobile" class="flex gap-2 flex-wrap"></div>
+        </div>
+
+        <!-- Left column: fixed/aside -->
+        <aside class="hidden md:block md:col-span-1">
+          <div class="md:sticky md:top-20">
+            <div class="flex items-center gap-3 mb-4">
+              <img src="images/logo.jpg" alt="Logo Moda Elegante" class="w-14 h-14 rounded-md object-contain bg-white" loading="eager" />
+              <div>
+                <div class="font-semibold">Moda Elegante</div>
+                <div class="text-xs text-slate-500">Estilo que Conquista</div>
+              </div>
+            </div>
+
+            <div class="mb-6">
+              <div class="text-sm text-slate-600">Catálogo de</div>
+              <div class="text-3xl font-extrabold">Produtos</div>
+              <p class="text-sm text-slate-500 mt-3">Filtre por categoria para encontrar rapidamente.</p>
+            </div>
+
+            <div id="filtersP" class="flex flex-col gap-2">
+              <!-- filtros gerados dinamicamente -->
+            </div>
+          </div>
+        </aside>
+
+        <!-- Right column: products -->
+        <section class="md:col-span-3">
+          <div id="productsGridP" class="mt-0 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"></div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="bg-gray-50 border-t">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div>
+            <h5 class="font-semibold">Moda Elegante</h5>
+            <p class="mt-2 text-sm text-slate-500">Peças selecionadas com carinho. Fale conosco pelo Telegram para orçamento e dúvidas.</p>
+          </div>
+          <div>
+            <h6 class="font-medium">Contato</h6>
+            <p class="mt-2 text-sm text-slate-500">Telegram: <a class="text-primary font-medium" href="https://t.me/+351930620727" target="_blank" rel="noopener">+351 930 620 727</a></p>
+            <p class="mt-2 text-sm text-slate-500">E-mail: contato@modaelegante.com</p>
+          </div>
+
+          <div>
+            <h6 class="font-medium">Horário</h6>
+            <p class="mt-2 text-sm text-slate-500">Seg — Sex: 9:00 — 18:00</p>
+          </div>
+        </div>
+        <div class="mt-8 text-center text-sm text-slate-400">© <span id="yearP"></span> Moda Elegante. Todos os direitos reservados.</div>
+      </div>
+    </footer>
+  </body>
+</html>
