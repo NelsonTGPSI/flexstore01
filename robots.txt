@@ -1,0 +1,41 @@
+# FlexStore SEO Configuration
+# Sitemap location
+Sitemap: https://flexstore01.pt/sitemap.xml
+
+# Allow all user agents
+User-agent: *
+Allow: /
+Allow: /images/
+Allow: /js/
+Allow: /styles/
+
+# Disallow unnecessary paths
+Disallow: /admin/
+Disallow: /*.json$
+Disallow: /node_modules/
+
+# Crawl delay (in seconds)
+Crawl-delay: 2
+
+# Request rate
+Request-rate: 1/1
+
+# Specific rules for Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Specific rules for Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Block bad bots
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /

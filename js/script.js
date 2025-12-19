@@ -69,7 +69,12 @@ const products = [
   { id: 63, nome: "T-shirt", preco: 45.00, categoria: "T-Shirts", imagens: ["images/T-Shirts/T-shirt/T-shirt (1).jpg", "images/T-Shirts/T-shirt/T-shirt (2).jpg", "images/T-Shirts/T-shirt/T-shirt (3).jpg", "images/T-Shirts/T-shirt/T-shirt (4).jpg", "images/T-Shirts/T-shirt/T-shirt (5).jpg"], descricao: "T-shirt básica em algodão suave com caimento moderno." },
   { id: 64, nome: "T-shirt Burberry", preco: 180.00, categoria: "T-Shirts", imagens: ["images/T-Shirts/T-shirt Burberry/T-shirt Burberry (1).jpg", "images/T-Shirts/T-shirt Burberry/T-shirt Burberry (2).jpg", "images/T-Shirts/T-shirt Burberry/T-shirt Burberry.jpg", "images/T-Shirts/T-shirt Burberry/T-shirt Burberry (1).jpg", "images/T-Shirts/T-shirt Burberry/T-shirt Burberry (2).jpg"], descricao: "T-shirt Burberry com estampa clássica e tecido premium." },
   { id: 65, nome: "T-shirt com Manga Corteiz", preco: 75.00, categoria: "T-Shirts", imagens: ["images/T-Shirts/T-shirt com Manga Corteiz/T-shirt com Manga Corteiz (1).jpg", "images/T-Shirts/T-shirt com Manga Corteiz/T-shirt com Manga Corteiz.jpg", "images/T-Shirts/T-shirt com Manga Corteiz/T-shirt com Manga Corteiz (1).jpg", "images/T-Shirts/T-shirt com Manga Corteiz/T-shirt com Manga Corteiz.jpg", "images/T-Shirts/T-shirt com Manga Corteiz/T-shirt com Manga Corteiz (1).jpg"], descricao: "T-shirt Corteiz com manga estampada e vibe streetwear." },
-  { id: 66, nome: "T-shirt CORTEIZ", preco: 85.00, categoria: "T-Shirts", imagens: ["images/T-Shirts/T-shirt CORTEIZ/T-shirt CORTEIZ (1).jpg", "images/T-Shirts/T-shirt CORTEIZ/T-shirt CORTEIZ (2).jpg", "images/T-Shirts/T-shirt CORTEIZ/T-shirt CORTEIZ (3).jpg", "images/T-Shirts/T-shirt CORTEIZ/T-shirt CORTEIZ (4).jpg", "images/T-Shirts/T-shirt CORTEIZ/T-shirt CORTEIZ (5).jpg"], descricao: "T-shirt CORTEIZ com múltiplas variações gráficas e corte confortável." }
+  { id: 66, nome: "T-shirt CORTEIZ", preco: 85.00, categoria: "T-Shirts", imagens: ["images/T-Shirts/T-shirt CORTEIZ/T-shirt CORTEIZ (1).jpg", "images/T-Shirts/T-shirt CORTEIZ/T-shirt CORTEIZ (2).jpg", "images/T-Shirts/T-shirt CORTEIZ/T-shirt CORTEIZ (3).jpg", "images/T-Shirts/T-shirt CORTEIZ/T-shirt CORTEIZ (4).jpg", "images/T-Shirts/T-shirt CORTEIZ/T-shirt CORTEIZ (5).jpg"], descricao: "T-shirt CORTEIZ com múltiplas variações gráficas e corte confortável." },
+  { id: 67, nome: "Bag Burberry Paddy", preco: 450.00, categoria: "Bolsas", imagens: ["images/Bolsas/Bag Burberry paddy/IMG-20251214-WA0056.jpg", "images/Bolsas/Bag Burberry paddy/IMG-20251214-WA0078.jpg", "images/Bolsas/Bag Burberry paddy/IMG-20251214-WA0079.jpg", "images/Bolsas/Bag Burberry paddy/IMG-20251214-WA0150.jpg", "images/Bolsas/Bag Burberry paddy/IMG-20251214-WA0056.jpg"], descricao: "Bolsa Burberry Paddy com design clássico em couro premium e cadeado icónico." },
+  { id: 68, nome: "Bag Dior", preco: 520.00, categoria: "Bolsas", imagens: ["images/Bolsas/Bag Dior/IMG-20251214-WA0059.jpg", "images/Bolsas/Bag Dior/IMG-20251214-WA0075.jpg", "images/Bolsas/Bag Dior/IMG-20251214-WA0090.jpg", "images/Bolsas/Bag Dior/IMG-20251214-WA0097.jpg", "images/Bolsas/Bag Dior/IMG-20251214-WA0059.jpg"], descricao: "Bolsa Dior com acabamento de luxo, logótipo bordado e estrutura elegante." },
+  { id: 69, nome: "Bag Gucci", preco: 540.00, categoria: "Bolsas", imagens: ["images/Bolsas/Bag Gucci/IMG-20251214-WA0071.jpg", "images/Bolsas/Bag Gucci/IMG-20251214-WA0082.jpg", "images/Bolsas/Bag Gucci/IMG-20251214-WA0085.jpg", "images/Bolsas/Bag Gucci/IMG-20251214-WA0089.jpg", "images/Bolsas/Bag Gucci/IMG-20251214-WA0092.jpg"], descricao: "Bolsa Gucci com padrão GG característico e alças em couro ajustáveis." },
+  { id: 70, nome: "Bag LV", preco: 560.00, categoria: "Bolsas", imagens: ["images/Bolsas/Bag LV/IMG-20251214-WA0051.jpg", "images/Bolsas/Bag LV/IMG-20251214-WA0058.jpg", "images/Bolsas/Bag LV/IMG-20251214-WA0060.jpg", "images/Bolsas/Bag LV/IMG-20251214-WA0106.jpg", "images/Bolsas/Bag LV/IMG-20251214-WA0114.jpg"], descricao: "Bolsa Louis Vuitton com monograma LV e acabamento refinado em lona tratada." },
+  { id: 71, nome: "Bolsa Goyard Belvedere", preco: 580.00, categoria: "Bolsas", imagens: ["images/Bolsas/Bolsa goyard belvedere/IMG-20251214-WA0052.jpg", "images/Bolsas/Bolsa goyard belvedere/IMG-20251214-WA0096.jpg", "images/Bolsas/Bolsa goyard belvedere/IMG-20251214-WA0098.jpg", "images/Bolsas/Bolsa goyard belvedere/IMG-20251214-WA0101.jpg", "images/Bolsas/Bolsa goyard belvedere/IMG-20251214-WA0104.jpg"], descricao: "Bolsa Goyard Belvedere com padrão chevron tradicional e couro resistente." }
 ];
 
 // FUNÇÕES UTILITÁRIAS
@@ -147,16 +152,23 @@ function renderProducts(list) {
   list.forEach((p) => {
     const card = document.createElement('article');
     card.className = 'bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition group min-w-0';
+    card.itemScope = '';
+    card.itemType = 'https://schema.org/Product';
     const cover = (p.imagens && p.imagens.length) ? p.imagens[0] : (p.imagem || 'images/logo.jpg');
     
     card.innerHTML = `
       <div class="w-full h-48 bg-gray-100 overflow-hidden">
-        <img src="${cover}" data-src="${cover}" alt="${p.nome}" class="w-full h-full img-cover transition-transform duration-300 group-hover:scale-105" />
+        <img src="${cover}" data-src="${cover}" alt="${p.nome}" class="w-full h-full img-cover transition-transform duration-300 group-hover:scale-105" itemProp="image" />
       </div>
       <div class="p-4">
-        <h4 class="font-medium text-slate-800">${p.nome}</h4>
-        <div class="mt-2 flex items-center justify-between">
-          <div class="text-slate-600 text-sm italic">Preço sob consulta</div>
+        <h4 class="font-medium text-slate-800" itemProp="name">${p.nome}</h4>
+        <meta itemProp="description" content="${p.descricao}" />
+        <meta itemProp="category" content="${p.categoria}" />
+        <div class="mt-2 flex flex-col gap-2">
+          <div class="text-slate-600 text-sm italic whitespace-normal">
+            <span itemProp="priceCurrency" content="EUR"></span>
+            <span itemProp="availability" content="https://schema.org/InStock">Preço sob consulta</span>
+          </div>
           <div class="text-sm text-slate-500 capitalize">${p.categoria}</div>
         </div>
         <div class="mt-4 flex flex-col gap-2">

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Homepage - Highest Priority -->
+  <url>
+    <loc>https://flexstore01.pt/</loc>
+    <lastmod>2025-12-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Category Pages -->
+  <url>
+    <loc>https://flexstore01.pt/?categoria=Calçados</loc>
+    <lastmod>2025-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://flexstore01.pt/?categoria=Chuteiras-Futebol</loc>
+    <lastmod>2025-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://flexstore01.pt/?categoria=Chuteiras-Futsal</loc>
+    <lastmod>2025-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://flexstore01.pt/?categoria=futebol</loc>
+    <lastmod>2025-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://flexstore01.pt/?categoria=basquete</loc>
+    <lastmod>2025-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://flexstore01.pt/?categoria=Casacos</loc>
+    <lastmod>2025-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://flexstore01.pt/?categoria=T-Shirts</loc>
+    <lastmod>2025-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://flexstore01.pt/?categoria=Bolsas</loc>
+    <lastmod>2025-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Popular Products with Images -->
+  <url>
+    <loc>https://flexstore01.pt/?produto=Dior-B22</loc>
+    <lastmod>2025-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://flexstore01.pt/images/Dior/Dior B22/Dior B22 (1).jpg</image:loc>
+      <image:title>Dior B22 - Ténis Premium</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://flexstore01.pt/?produto=Nike-Air-Max-95</loc>
+    <lastmod>2025-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://flexstore01.pt/images/Nike/Nike Air Max 95/Nike Air Max 95 (1).jpg</image:loc>
+      <image:title>Nike Air Max 95 - Ténis de Ícone</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://flexstore01.pt/?produto=Gucci-Bag</loc>
+    <lastmod>2025-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://flexstore01.pt/images/Bolsas/Bag Gucci/IMG-20251214-WA0071.jpg</image:loc>
+      <image:title>Bag Gucci - Bolsa de Luxo</image:title>
+    </image:image>
+  </url>
+
+  <!-- Camisolas de Futebol -->
+  <url>
+    <loc>https://flexstore01.pt/?categoria=futebol&tipo=camisola</loc>
+    <lastmod>2025-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Chuteiras -->
+  <url>
+    <loc>https://flexstore01.pt/?categoria=Chuteiras-Futebol&tipo=chuteira</loc>
+    <lastmod>2025-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Bolsas Premium -->
+  <url>
+    <loc>https://flexstore01.pt/?categoria=Bolsas&tipo=luxury</loc>
+    <lastmod>2025-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+</urlset>
